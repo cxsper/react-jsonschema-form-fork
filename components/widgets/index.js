@@ -1,0 +1,47 @@
+import BaseInput from './BaseInput';
+import CheckboxWidget from './CheckboxWidget';
+import CheckboxesWidget from './CheckboxesWidget';
+import ColorWidget from './ColorWidget';
+import DateWidget from './DateWidget';
+import DateTimeWidget from './DateTimeWidget';
+import EmailWidget from './EmailWidget';
+import FileWidget from './FileWidget';
+import HiddenWidget from './HiddenWidget';
+import PasswordWidget from './PasswordWidget';
+import RadioWidget from './RadioWidget';
+import RangeWidget from './RangeWidget';
+import SelectWidget from './SelectWidget';
+import TextareaWidget from './TextareaWidget';
+import TextWidget from './TextWidget';
+import URLWidget from './URLWidget';
+import UpDownWidget from './UpDownWidget';
+import ListSelect from './ListSelect';
+import LookupSelect from './LookupSelect';
+import MultiLookupSelect from './MultiLookupSelect';
+import TagsWidget from './TagsWidget';
+import DynamicList from './DynamicList';
+
+export default {
+  BaseInput,
+  PasswordWidget,
+  RadioWidget,
+  UpDownWidget,
+  RangeWidget,
+  SelectWidget,
+  TextWidget,
+  DateWidget,
+  DateTimeWidget,
+  EmailWidget,
+  URLWidget,
+  TextareaWidget,
+  HiddenWidget,
+  ColorWidget,
+  FileWidget,
+  CheckboxWidget,
+  CheckboxesWidget,
+  ListSelect,
+  DynamicList,
+  LookupSelect,
+  MultiLookupSelect,
+  TagsWidget,
+};
